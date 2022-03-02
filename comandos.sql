@@ -1,4 +1,5 @@
 """selects para o dia 15/03/2022"""
+"""João Victor de Oliveira GU3013197"""
 
 -- Busca dos clientes que contenham 3 no numero de cliente
 select * from customers cu 
