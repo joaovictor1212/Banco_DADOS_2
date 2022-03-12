@@ -135,8 +135,7 @@ where p.productCode not like ('%6%')
 and  o.orderNumber not like ('%9%');
 
 -- Busca na tabela de linhas de produtos com limit de 10
-select  
-from productlines p limit 10;
+select  * from productlines p limit 10;
 
 -- Busca na tabela de pagamentos com alguns campos especificos sendo mostrandos com junção das tabelas de clientes e ordens, com filtro de data de pagamento
 select c.customerName as nome, 
